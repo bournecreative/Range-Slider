@@ -1,0 +1,14 @@
+{
+    "plans":[
+        {
+            "demo":{
+                "name": "Demo Plan",
+                "startPrice": 200
+            }
+        }
+    ],
+    "discounts":{
+        "overThree": 20,
+        "overTen" : 40
+    }
+}

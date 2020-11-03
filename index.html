@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range Slider</title>
+    <link rel="stylesheet" href="dist/css/app.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="section">
+        <div class="Container">
+            <div class="pricingContainer">
+                <div class="row">
+                    <div class="text-group text-secondary">
+                        <div class="group-left">
+                            <h2 class="text-large">Product K</h2>
+                            <p class="text-copy">Includes everything you need <br>to get started</p>
+                        </div>
+                        <div class="group-right">
+                            <div>
+                                <h2 class="price-large">
+                                    <span>$</span><span class="odometer" data-plan="demo"></span>
+                                    <span class="price-month">/mo</span>
+                                </h2>
+                                <p class="legal-copy">legal jargon and <br>additional messaging.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rangeContainer">
+                <input id="priceRange" class="slider" type="range" min="1" max="10" value="1"
+                    aria-label="Check your loyalty discount">
+                <span class="nub"></span>
+                <div class="ticks">
+                    <span class="tick active" data-range="1">1</span>
+                    <span class="tick" data-range="2">2</span>
+                    <span class="tick" data-range="3">3</span>
+                    <span class="tick" data-range="4">4</span>
+                    <span class="tick" data-range="5">5</span>
+                    <span class="tick" data-range="6">6</span>
+                    <span class="tick" data-range="7">7</span>
+                    <span class="tick" data-range="8">8</span>
+                    <span class="tick" data-range="9">9</span>
+                    <span class="tick" data-range="10">10+</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="dist/js/app.js"></script>
+</body>
+
+</html>
