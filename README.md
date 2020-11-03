@@ -16,5 +16,10 @@ This small demo is just an example of acheving a concept that can be built upon 
 * Price change animates in an odometer style fashion. Odometer was leveraged for this effect. [Odometer](https://github.com/HubSpot/odometer)
 
 
+### Demo
+
+[demo](https://bournecreative.github.io/bournecreative.rangeSlider.io/)
+
+
 Built with vanilla javascript, scss, using ES6 modules, and using laravel mix for the project build.
 
