@@ -16,6 +16,6 @@ I initially built out this UI along with the rest of the page for a rebranding o
 
 Simplified demo illustrating core concept
 
-[Range Slider concept](https://bournecreative.github.io/bournecreative.rangeSlider.io/)
+[Range Slider concept](https://uiblox.github.io/vz-rangeslider/)
 
 Built with vanilla javascript, SCSS, using ES6 modules, and using laravel mix for the project build.
